@@ -1,26 +1,26 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif; /* Font family works as: primary preferred font, secondary preferred font if primary not available*/
                                                    /* "Apple Clean" formatting*/
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+  max-width: 900px; /* Limits how wide the content can get on very large screens - 900px is a sweet spot*/
+  margin: 40px auto; /* 40px gives 40 pixles of space on the top and bottom of the margin. Auto centers the content horizontally between left and right*/ 
+  padding: 0 20px; /* 0 top/bottom spacing, 20 pixles left/right spacing - text doesnt touch sides of screen*/
                                                     /* Navigation bar style*/
-  nav {
-  display: flex;
-  gap: 20px;
-  padding: 20px 0;
-  margin-bottom: 40px;
-  border-bottom: 1px solid #ddd;
-}
+  nav { /* <nav> in the html code is the box that holds all the links. CSS targeting nav { ... } changes the container: its spacing, borders, layout, background, etc*/
+  display: flex; /* Makes all the <a> links line up in a row instead of stacking vertically */
+  gap: 20px; /*Adds 20 pixels of space between each link*/
+  padding: 20px 0; /*Adds 20px of space above and below the nav bar content.*/
+  margin-bottom: 40px; /*Adds 40px of space below the nav bar, pushing the page content down so it’s not squished against the nav.*/
+  border-bottom: 1px solid #ddd; /*Adds a thin horizontal line below the nav bar.*/
+  }
 
-nav a {
-  text-decoration: none;
-  color: #222;
-  font-weight: 500;
-}
+  nav a { /* Refers to all <a> elements inside <nav> in the html code. a stands for “anchor”(clickable links).CSS targeting nav a { ... } changes the links themselves: text color, font, decoration, hover effects, etc */
+  text-decoration: none; /* removes the default underline from links */
+  color: #222; /* dark gray color for links (soft, not harsh black) */
+  font-weight: 500; /*makes the text slightly bold, giving it subtle emphasis without being too heavy*/
+  }
 
-nav a:hover {
-  text-decoration: underline;
-}
+  nav a:hover {
+  text-decoration: underline; /*Adds an underline only when someone hovers over the link and provides a visual cue that it’s clickable*/
+  }
 
 }
