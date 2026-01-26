@@ -1,7 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 0;
+  padding: 0;
   font-size: 16px;      /* readable size */
   line-height: 1.6;     /* nice spacing between lines */
   color: #222;           /* soft black */; /* Font family works as: primary preferred font, secondary preferred font if primary not available*/
