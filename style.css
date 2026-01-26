@@ -37,7 +37,7 @@ body {
                                                           /* Style nav links */
   .site-nav {
   display: flex;
-  gap: 24px;
+  gap: 48px;
 }
 
 .site-nav a {
