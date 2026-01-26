@@ -37,7 +37,7 @@ body {
                                                           /* Style nav links */
   .site-nav {
   display: flex;
-  gap: 48px;
+  gap: 24px;
 }
 
 .site-nav a {
@@ -48,6 +48,7 @@ body {
 
 .site-nav a:hover {
   text-decoration: underline;
+  padding: 5px 5px;  /* spacing between links */
 }
 
 main {
