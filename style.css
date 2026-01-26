@@ -1,6 +1,13 @@
 body {
-  font-family: Arial, sans-serif; /* Font family works as: primary preferred font, secondary preferred font if primary not available*/
+    font-family: "Lato", sans-serif;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-size: 16px;      /* readable size */
+  line-height: 1.6;     /* nice spacing between lines */
+  color: #222;           /* soft black */; /* Font family works as: primary preferred font, secondary preferred font if primary not available*/
 }
+
 * {
   box-sizing: border-box;
 }
@@ -33,7 +40,7 @@ body {
                                                           /* Style nav links */
   .site-nav {
   display: flex;
-  gap: 48px;
+  gap: 92px;
 }
 
 .site-nav a {
