@@ -23,8 +23,12 @@ body {
                                                           /* Style name */
 .site-name {
   margin: 0;
-  font-size: 36px;
-  font-weight: 800;
+  font-family: "Cinzel", serif;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 }
                                                           /* Style nav links */
   .site-nav {
