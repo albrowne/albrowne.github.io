@@ -1,7 +1,11 @@
 body {
   font-family: Arial, sans-serif; /* Font family works as: primary preferred font, secondary preferred font if primary not available*/
 }
-                                                      /* Sticky header and push name left, nav right */
+* {
+  box-sizing: border-box;
+}
+                                             
+                                      /* Sticky header and push name left, nav right */
 .site-header {
   position: sticky;        /* Keeps header visible while scrolling */
   top: 0;                  /* Sticks it to the very top of the page */
