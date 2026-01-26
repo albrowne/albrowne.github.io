@@ -48,7 +48,7 @@ body {
 
 .site-nav a:hover {
   text-decoration: underline;
-  padding: 5px 5px;  /* spacing between links */
+  padding: 0 5px;  /* spacing between links */
 }
 
 main {
