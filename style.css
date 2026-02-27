@@ -95,22 +95,28 @@ main {
 }
 
                                                           /* Format picture on eng proj page*/
+.project-layout {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin: 40px 0;
+}
+
 .project-image {
-  width: 100%;
-  max-width: 700px;
-  display: block;
-  margin: 30px auto;
+  width: 400px;         /* controls image size */
+  height: auto;
   border-radius: 12px;
 }
 
-.image-credit {
-  text-align: center;
-  font-size: 14px;
-  color: #666;
+.project-description {
+  flex: 1;              /* takes remaining space */
 }
+@media (max-width: 768px) {
+  .project-layout {
+    flex-direction: column;
+  }
 
-.image-credit a {
-  color: #666;
-  text-decoration: underline;
+  .project-image {
+    width: 100%;
+  }
 }
-
