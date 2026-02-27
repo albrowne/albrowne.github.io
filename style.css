@@ -94,3 +94,23 @@ main {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
+                                                          /* Format picture on eng proj page*/
+.project-image {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 30px auto;
+  border-radius: 12px;
+}
+
+.image-credit {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.image-credit a {
+  color: #666;
+  text-decoration: underline;
+}
+
