@@ -136,7 +136,7 @@ main {
     width: 100%;
   }
                                                         /* Style my Back to Home Button*/
-  .secondary-button {
+  .resume-button {
   display: inline-block;
   margin-top: 15px;
   padding: 8px 16px;          /* smaller padding than primary button */
@@ -150,9 +150,10 @@ main {
   transition: all 0.2s ease;
 }
 
-.secondary-button:hover {
+.resume-button:hover {
   background-color: #222;      /* dark background on hover */
   color: white;                /* text turns white on hover */
   transform: translateY(-1px); /* subtle lift effect */
+}
 }
 }
