@@ -138,18 +138,22 @@ main {
                                                         /* Style my Back to Home Button*/
   .secondary-button {
   display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  border: 2px solid #222;
+  margin-top: 15px;
+  padding: 8px 16px;          /* smaller padding than primary button */
+  border: 1px solid #222;     /* thin border for subtle outline */
+  background-color: transparent;  /* no fill */
   color: #222;
   text-decoration: none;
   border-radius: 6px;
   font-weight: 500;
+  font-size: 14px;             /* smaller text */
   transition: all 0.2s ease;
 }
 
 .secondary-button:hover {
-  background-color: #222;
-  color: white;
+  background-color: #222;      /* dark background on hover */
+  color: white;                /* text turns white on hover */
+  transform: translateY(-1px); /* subtle lift effect */
+}
 }
 }
