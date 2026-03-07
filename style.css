@@ -135,4 +135,21 @@ main {
   .project-image {
     width: 100%;
   }
+                                                        /* Style my Back to Home Button*/
+  .secondary-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 2px solid #222;
+  color: #222;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.secondary-button:hover {
+  background-color: #222;
+  color: white;
+}
 }
