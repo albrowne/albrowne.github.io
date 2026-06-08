@@ -4,7 +4,9 @@ body {
   padding: 0;
   font-size: 16px;      /* readable size */
   line-height: 1.6;     /* nice spacing between lines */
-  color: #222;           /* soft black */; /* Font family works as: primary preferred font, secondary preferred font if primary not available*/
+  /* color: #222;           soft black ; Font family works as: primary preferred font, secondary preferred font if primary not available*/
+  background-color: #faf6ef;
+  color: #2f241b;
 }
 
 * {
@@ -16,13 +18,14 @@ body {
   width: 100%;
   position: sticky;        /* Keeps header visible while scrolling */
   top: 0;                  /* Sticks it to the very top of the page */
-  background-color: white; /* Prevents content showing through */
+  /* background-color: white;  Prevents content showing through */
   z-index: 1000;           /* Keeps header above all other content */
   display: flex;           /* Puts name and nav in one horizontal row */
   justify-content: space-between; /* Name left, nav right */
   align-items: center;     /* Vertically centers items */
   padding: 20px 40px;      /* Space inside the header */
   border-bottom: 1px solid #ddd; /* Subtle divider line */
+  background-color: #faf6ef;
 }
                                                           /* Style name */
 .site-name {
@@ -196,12 +199,5 @@ main {
   display: flex;
   gap: 15px;
   margin-top: 30px;
-}
-body {
-  background-color: #faf6ef;
-  color: #2f241b;
-}
-.site-header {
-  background-color: #faf6ef;
 }
 }
