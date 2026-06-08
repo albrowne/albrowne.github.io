@@ -5,7 +5,7 @@ body {
   font-size: 16px;      /* readable size */
   line-height: 1.6;     /* nice spacing between lines */
   /* color: #222;           soft black ; Font family works as: primary preferred font, secondary preferred font if primary not available*/
-  background-color: #faf6ef;
+  /*background-color: #faf6ef;*/
   color: #2f241b;
 }
 
