@@ -18,14 +18,13 @@ body {
   width: 100%;
   position: sticky;        /* Keeps header visible while scrolling */
   top: 0;                  /* Sticks it to the very top of the page */
-  /* background-color: white;  Prevents content showing through */
+  background-color: white; /* Prevents content showing through */
   z-index: 1000;           /* Keeps header above all other content */
   display: flex;           /* Puts name and nav in one horizontal row */
   justify-content: space-between; /* Name left, nav right */
   align-items: center;     /* Vertically centers items */
   padding: 20px 40px;      /* Space inside the header */
   border-bottom: 1px solid #ddd; /* Subtle divider line */
-  background-color: #faf6ef;
 }
                                                           /* Style name */
 .site-name {
