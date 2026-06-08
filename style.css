@@ -197,4 +197,11 @@ main {
   gap: 15px;
   margin-top: 30px;
 }
+body {
+  background-color: #faf6ef;
+  color: #2f241b;
+}
+.site-header {
+  background-color: #faf6ef;
+}
 }
