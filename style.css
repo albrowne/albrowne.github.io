@@ -195,9 +195,11 @@ main {
 }
 
 .hero-buttons {
-  display: flex;
+  display: inline-flex;
   gap: 15px;
   margin-top: 30px;
+  align-items: center;
+  justify-content: center;
 }
                                         /* Format NDA text */
 .nda-note {
