@@ -113,6 +113,17 @@ main {
   background-color: #444;
 }
                                                           /* Format picture on eng proj page*/
+.image-container {
+  width: 400px;  /* same width as your image */
+}
+
+.image-credit {
+  margin-top: 8px;
+  font-size: 12px;
+  font-style: italic;
+  color: #777;
+}
+                                             /* end of new*/
 .project-layout {
   display: flex;
   gap: 40px;
